@@ -1,0 +1,74 @@
+body{
+	font-family: "courier";
+	font-size: 15px;
+}
+
+
+.college th {
+	font-size: 20px; 
+
+}
+
+.college th, .college td {
+	width: 180px;
+	height: 30px;
+	text-align: left;
+
+}
+
+.college .wide {
+	width: 400px;
+}
+
+h1{
+	font-family: "Times New Roman";
+}
+
+#Title {
+	font-size: 50px;
+	font-family: "courier new";
+}
+
+.bucket-list img {
+	display: block;
+	margin-left: auto;
+	max-width: 300px;
+	max-height: 200px;
+}
+
+.temperature {
+	font-style: italic;
+    padding-left: 40px;
+}
+
+
+
+
+
+.bucker-list .cell-img {
+	text-align: center;
+}
+
+.bucket-list .cell-counter {
+	width: 50px;
+	text-align: center;
+	color: #c71ec7;
+	background-color: #819fcc59;
+}
+
+.bucket-list .cell-desc {
+	width: 800px;
+	text-align: justify;
+}
+
+.bucket-list .cell-desc h4 {
+	padding-left: 20px;
+	color: #c516c5;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 16px;
+}
+
+.bucket-list .cell-desc p {
+	padding-left: 40px;
+}
