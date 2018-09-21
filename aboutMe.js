@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function loaded(){
       favList4.innerHTML = "My favorite drink is water.";
     } else {
       var line = document.getElementById("done");
-      line.innerHTML = "------------------";
+      line.innerHTML = "------------------<br>The End";
 
     }
 
