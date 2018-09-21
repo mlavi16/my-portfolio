@@ -1,27 +1,21 @@
 body{
   background-color: lightblue;
-
 }
-
 
 h1 {
   font-family:fantasy;
   align-items: center;
 }
 
-
 img {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
-
-
-
 div.day {
-    width: 160px;
-    height: 160px;
-    padding: 20px;
-    border: 5px solid black;
-    display: inline-block;
+  width: 160px;
+  height: 160px;
+  padding: 20px;
+  border: 5px solid black;
+  display: inline-block;
 }

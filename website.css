@@ -1,3 +1,4 @@
+
 body{
 	font-family: "courier";
 	font-size: 15px;
@@ -5,17 +6,8 @@ body{
 
 .title-screen{
   text-indent: 30px;
+  padding-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
 
 .college th {
 	font-size: 20px;
@@ -55,10 +47,7 @@ h1{
 }
 
 
-
-
-
-.bucker-list .cell-img {
+.bucket-list .cell-img {
 	text-align: center;
 }
 
@@ -84,4 +73,13 @@ h1{
 
 .bucket-list .cell-desc p {
 	padding-left: 40px;
+}
+
+
+/* about Me */
+.container {
+	background-color: #0e658e;;
+	color: #b9e6fb;
+	padding: 20px;
+    margin: 30px;
 }
