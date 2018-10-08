@@ -4,26 +4,33 @@ document.addEventListener('DOMContentLoaded', function loaded(){
   getWeather();
 	console.log("button", button)
 
+	if(button!=undefined){
+		button.onclick = function() {
+    	console.log("Hi")
 
-	button.onclick = function() {
-    console.log("Hi")
+			var randNum = Math.floor((Math.random() * 7));
 
-		var randNum = Math.floor((Math.random() * 7));
+			console.log("randNum", randNum)
 
-		console.log("randNum", randNum)
+			var list = document.querySelectorAll("h4");
 
-		var list = document.querySelectorAll("h4");
+			console.log("list", list[randNum], list[randNum].innerHTML);
 
-		console.log("list", list[randNum], list[randNum].innerHTML);
+			document.getElementById("what-to-do").innerHTML=list[randNum].innerHTML;
 
-		document.getElementById("what-to-do").innerHTML=list[randNum].innerHTML;
-
-  }
+	  	}
+	}
 
 
 })
 
 
+ function showPage(pageurl) {
+ 	console.log("hi", pageurl);
+ 	var Frame = document.getElementById("frame");
+ 	Frame.setAttribute("src", pageurl);
+ 	
+ }
 
 function getWeather () {
 	//API documentation: https://openweathermap.org/current
@@ -56,5 +63,40 @@ function processWeatherRequest () {
 	temp -= 273.15;
 	temp = Math.round(temp);
 
-	document.getElementById("grand-canyon-temp").innerHTML = temp;
+	var idk = document.getElementById("grand-canyon-temp");
+
+	if(idk!=undefined){
+		idk.innerHTML = temp;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
