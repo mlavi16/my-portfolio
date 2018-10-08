@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600,700,800");
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Corben|Fugaz+One|Limelight|Lobster|Luckiest+Guy|Rammetto+One|Satisfy|Shrikhand|Squada+One');
+
 body{
 	font-family: "courier";
 	font-size: 15px;
@@ -66,25 +69,6 @@ h1{
 	height: 40%;
 }
 
-.sizeall-link {
-	font-size: 30px;
-    background-color: #1a083e;
-    width: 200px;
-    text-align: center;
-    border-radius: 6px;
-    padding: 10px;
-    font-weight: 800;
-}
-
-.sizeall-link a {
-	text-decoration: none;
-    color: #f5f4f7;
-}
-
-.sizeall-link:hover {
-    background-color: #1a083ea6;
-}
-
 /* Bucket List */
 
 .bucket-list .cell-counter {
@@ -115,6 +99,39 @@ h1{
 
 .welcome {
 	padding-left: 20px;
+}
+
+.welcome .repositories {
+	margin-top: 60px;
+}
+
+.sizeall-link {
+    font-size: 60px;
+    font-family: "Squada One";
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    vertical-align: middle;
+    padding: 14px 40px;
+    margin-left: 10px;
+    color: #f5f4f7;
+    background-color: #1a083e;
+    box-shadow: 2px 3px #a4a3da;
+}
+
+.sizeall-link:hover {
+	color: grey;
+    border-radius: 16px;
+}
+
+.strong-text {
+	color: #0f0c75;
+    font-weight: bold;
+}
+
+.github a {
+	font-family: fantasy;
+    letter-spacing: 1px;
 }
 
 /* lit page */
