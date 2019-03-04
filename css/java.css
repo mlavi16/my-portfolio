@@ -1,0 +1,41 @@
+.header {
+	font-family:fantasy;
+}
+.header h2 {
+	text-transform: uppercase;
+}
+.header p {
+	margin-top: -15px;
+	padding-bottom: 20px;
+}
+
+h1 {
+  font-family:fantasy;
+  align-items: center;
+  text-align: left;
+}
+
+.java-nav {
+    float: left;
+    height: 100%;
+    width: 160px;
+}	
+
+.java-content {
+	margin-left: 160px;
+    background-color: #ebe7f3
+}
+
+.java-content .i-frame {
+	height: 408px;
+    margin-top: -8px;
+    background-color: #d0c9dc;
+}
+
+.java-content .i-frame body {
+	color: blue;
+}
+
+.java-content .image {
+	background-color: white;
+}

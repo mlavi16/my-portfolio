@@ -27,9 +27,17 @@ document.addEventListener('DOMContentLoaded', function loaded(){
 
  function showPage(pageurl) {
  	console.log("hi", pageurl);
- 	var Frame = document.getElementById("frame");
+ 	showPageInFrame(pageurl, "frame");
+ }
+
+ function showJava(pageurl) {
+ 	console.log("java frame:", pageurl);
+ 	showPageInFrame(pageurl, "java-frame");
+ }
+
+ function showPageInFrame(pageurl, inFrame) {
+ 	var Frame = document.getElementById(inFrame);
  	Frame.setAttribute("src", pageurl);
- 	
  }
 
 function getWeather () {
