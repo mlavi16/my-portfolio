@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', function loaded(){
  }
 
  function showPageInFrame(pageurl, inFrame) {
- 	var Frame = document.getElementById(inFrame);
- 	Frame.setAttribute("src", pageurl);
+ 	var frame = document.getElementById(inFrame);
+ 	frame.setAttribute("src", pageurl);
  }
 
 function getWeather () {
